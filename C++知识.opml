@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Mon Oct 28 2019 00:01:40 GMT+0800 (中国标准时间)</dateCreated>
+		<dateModified>Mon Oct 28 2019 00:01:40 GMT+0800 (中国标准时间)</dateModified>
+	</head>
+	<body>
+		<outline text="C++知识">
+			<outline text="C++基础">
+				<outline text="C语言"></outline>
+				<outline text="函数">
+					<outline text="函数的默认参数"></outline>
+					<outline text="函数重载"></outline>
+					<outline text="内联函数"></outline>
+				</outline>
+				<outline text="引用">
+					<outline text="引用变量是所引用变量的的别名，地址与所引用的变量地址相同"></outline>
+					<outline text="引用与指针">
+						<outline text="引用必须在定义时初始化"></outline>
+						<outline text="引用变量与指针变量的自增自减运算"></outline>
+						<outline text="引用和指针变量的大小"></outline>
+					</outline>
+					<outline text="引用作为函数参数：参数传递时不会产生零时变量"></outline>
+				</outline>
+				<outline text="类和对象">
+					<outline text="类的默认成员函数">
+						<outline text="构造函数">
+							<outline text="调用场景">
+								<outline text="类的对象在被创建时自动调用构造函数"></outline>
+							</outline>
+							<outline text="构造函数一般完成构造对象以及初始化工作"></outline>
+							<outline text="如果没有显示定义编译器会自动产生一个缺省的默认构造函数"></outline>
+							<outline text="无参的构造函数和全缺省值的构造函数都被认为是缺省构造函数，一个类中缺省的构造函数只能有一个"></outline>
+							<outline text="构造函数没有返回值，可以重载，函数名与类名相同"></outline>
+							<outline text="构造函数的参数列表">
+								<outline text="更高效（两次构造函数变成一次拷贝构造函数）"></outline>
+								<outline text="const,引用，没有默认参数的构造函数的类对象必须在构造函数的初始化中初始化"></outline>
+							</outline>
+						</outline>
+						<outline text="析构函数"></outline>
+						<outline text="拷贝构造函数"></outline>
+					</outline>
+					<outline text="this指针"></outline>
+					<outline text="静态成员"></outline>
+					<outline text="友元">
+						<outline text="友元类">
+							<outline text="一个类被friend class在另一个类中，这另一个类可以访问这个类的对象的成员"></outline>
+						</outline>
+						<outline text="友元函数">
+							<outline text="友元函数可以访问类的成员"></outline>
+						</outline>
+					</outline>
+					<outline text="const成员函数">
+						<outline text="this指针指向的内容不能被修改"></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="编程技巧">
+				<outline text="浅拷贝&amp;深拷贝&amp;写时拷贝"></outline>
+				<outline text="类型萃取"></outline>
+				<outline text="泛型编程"></outline>
+			</outline>
+			<outline text="继承与多态">
+				<outline text="继承">
+					<outline text="继承关系">
+						<outline text="公有继承"></outline>
+						<outline text="私有继承"></outline>
+						<outline text="保护继承"></outline>
+					</outline>
+					<outline text="派生类的默认构造函数"></outline>
+					<outline text="纯虚继承"></outline>
+					<outline text="菱形继承"></outline>
+					<outline text="子主题 5"></outline>
+				</outline>
+				<outline text="多态"></outline>
+			</outline>
+			<outline text="动态内存管理">
+				<outline text="new和delete"></outline>
+				<outline text="new[]和delete[]"></outline>
+				<outline text="与c语言内存管理比较"></outline>
+				<outline text="定位new表达式"></outline>
+			</outline>
+			<outline text="面向对象编程">
+				<outline text="本体">
+					<outline text="存储管理"></outline>
+					<outline text="生存周期"></outline>
+					<outline text="按值传递"></outline>
+					<outline text="专权对象"></outline>
+				</outline>
+				<outline text="封装">
+					<outline text="对象、属性、行为"></outline>
+					<outline text="类与成员"></outline>
+					<outline text="包裹"></outline>
+					<outline text="对象构造与析构"></outline>
+					<outline text="成员访问限制"></outline>
+				</outline>
+				<outline text="继承">
+					<outline text="基类"></outline>
+					<outline text="继承关系"></outline>
+					<outline text="基类成员访问限制"></outline>
+					<outline text="成员覆盖"></outline>
+					<outline text="构造与析构"></outline>
+					<outline text="多基类继承"></outline>
+					<outline text="抽象基类"></outline>
+					<outline text="继承层次"></outline>
+				</outline>
+				<outline text="多态">
+					<outline text="函数重载与调用解析"></outline>
+					<outline text="继承层次中的对象传递"></outline>
+					<outline text="虚函数与动态绑定"></outline>
+				</outline>
+			</outline>
+			<outline text="泛型编程">
+				<outline text="异常">
+					<outline text="异常对象"></outline>
+					<outline text="异常产生"></outline>
+					<outline text="异常处理"></outline>
+				</outline>
+				<outline text="模板">
+					<outline text="函数模板"></outline>
+					<outline text="非类型模板参数"></outline>
+					<outline text="类模板"></outline>
+					<outline text="分离编译"></outline>
+					<outline text="模板的特化"></outline>
+				</outline>
+				<outline text="标椎模板库">
+					<outline text="C++标准库的一部分"></outline>
+					<outline text="序列"></outline>
+					<outline text="迭代器"></outline>
+					<outline text="分配器"></outline>
+					<outline text="容器模板"></outline>
+					<outline text="流">
+						<outline text="标准流&lt;iostream&gt;"></outline>
+						<outline text="文件流&lt;fstream&gt;"></outline>
+						<outline text="串流&lt;sstream&gt;、&lt;strstream&gt;"></outline>
+						<outline text="local 注入imbue()"></outline>
+						<outline text="操纵器（manipulator）"></outline>
+					</outline>
+					<outline text="串(string)"></outline>
+					<outline text="通用算法"></outline>
+				</outline>
+			</outline>
+			<outline text="强类型系统">
+				<outline text="初始化与赋值"></outline>
+				<outline text="继承层次中的类型检查"></outline>
+				<outline text="显示与隐式类型转换">
+					<outline text="explicit抑制 class 隐式转换构造"></outline>
+					<outline text="C 风格的强制转换"></outline>
+					<outline text="大强制转换模板">
+						<outline text="dynamic_cast"></outline>
+						<outline text="static_cast"></outline>
+						<outline text="const_cast"></outline>
+						<outline text="reinterpret_cast"></outline>
+					</outline>
+				</outline>
+			</outline>
+		</outline>
+		<outline text="XMind: ZEN - Trial Version"></outline>
+	</body>
+</opml>
